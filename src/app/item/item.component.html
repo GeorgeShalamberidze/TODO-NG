@@ -1,0 +1,7 @@
+<div class="wrapper">
+    <p [style.text-decoration]="item.done ? 'line-through' : 'none' ">{{item.todo}}</p>
+
+    <button *ngIf="item.done" class="done" (click)="onClickDone()">Finished</button>
+    <button *ngIf="!item.done" class="done" (click)="onClickDone()">Progress</button>
+    <button class="close" (click)="deleteItem(index)">X</button>
+</div>

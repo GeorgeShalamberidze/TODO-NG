@@ -1,0 +1,27 @@
+#input-name {
+    margin-right: 10px;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+    border-style: none;
+    &:focus {
+        border-style: none;
+        outline: none;
+    }
+}
+
+.button {
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+}

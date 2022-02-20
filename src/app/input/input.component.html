@@ -1,0 +1,6 @@
+<div>
+    <form [formGroup]="inputForm" (ngSubmit)="addEvent(inputForm.value)">
+        <input type="text" id="input-name" formControlName="todo" placeholder="enter todo...">
+        <button class="button" [disabled]="inputForm.invalid">Add !</button>
+    </form>
+</div>

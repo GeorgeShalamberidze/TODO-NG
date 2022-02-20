@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+*, ::after, ::before  {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(136, 173, 173);
+    display: flex;
+    justify-content: center;
+}
